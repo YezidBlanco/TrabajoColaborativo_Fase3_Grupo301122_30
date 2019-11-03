@@ -5,27 +5,27 @@ nav,.contenedor, footer, article, header, .principal, aside{
     border-radius: 0.2em;
 }
 nav{
-     background-color:#0040FF;
+     background-color: #005883;
 }
 .contenedor{
-    background-color: #0080FF;
+    background-color: #005883;
 }
 footer{
-    background-color: #0040FF;
+    background-color: #005883;
     height: auto;
 }
 article{
-    background-color: #0174DF;
+    background-color: #005883;
 }
 header{
-    background-color: #0080FF;
+    background-color: #005883;
     margin-top: 3em;
     height: auto;
     min-height: 7em;
     padding-top: 1em;
 }
 .principal{
-    background-color: rgb(207, 231, 253);
+    background-color: white;
     display: inline-block;
     width: 65%;
     min-width: 20em;
@@ -36,7 +36,7 @@ header{
     padding: 20px;
 }
 aside{
-    background-color: #0040FF;
+    background-color: white;
     display: inline-block;
     width: 25%;
     min-width: 20em;
@@ -46,39 +46,39 @@ aside{
     padding: 20px;
 }
 nav, h1, h2, h3, h4, h5, p{
-    font-family: "Verdana";
+    font-family: "Angsana New Bold";
 }
 h1{
     font-size: 2.2em;
     color: white;
     text-align: center;
-    text-shadow: 1px 1px 1px rgb(1, 1, 77);
+    text-shadow: 1px 1px 1px white;
 }
 h2{
     font-size: 1.5em;
-    color: rgb(1, 1, 77);
-    background-color: #0080FF;
+    color: white;
+    background-color: #005883;
     border-radius: 0.2em;
 }
 h3{
     font-size: 1.2em;
-    color: rgb(1, 1, 77);
-    background-color: #0080FF;
+    color: white;
+    background-color: #005883;
     border-radius: 0.2em;
 }
 h4{
     font-size: 1.1em;
     color: white;
-    text-shadow: 1px 1px 1px rgb(1, 1, 77);
+    text-shadow: 1px 1px 1px black;
 }
 h5{
     font-size: 1em;
-    color: rgb(1, 1, 77); 
+    color: #005883; 
 }
 p{
     font-size: 1em;
     text-align: justify;
-    color: rgb(1, 1, 77);
+    color: #005883;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -88,32 +88,32 @@ p{
 }
 li a, btnDesplegable{
     display: inline-block;
-    color: beige;
+    color: white;
     padding: 0.9em 1em;
     text-align: center;
     text-decoration: none;
     font-size: 1.5em;
-    text-shadow: 1px 1px 1px rgb(1, 1, 77);
+    text-shadow: 1px 1px 1px black;
 }
 .contenidoDesplegable{
     display: none;
     position: absolute;
-    background-color: rgb(211, 222, 253);
+    background-color: gray;
     min-width: 8em;
 }
 .contenidoDesplegable a{
-    color: black;
+    color: white;
     padding: 0.9em 1em;
     display: block;
     text-align: left;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px black;
 }
 .contenidoDesplegable a:hover{
-    background-color: rgb(2, 39, 151);
+    background-color: #005883;
 }
 .desplegable:hover .contenidoDesplegable{
     display: block;
 }
 li a:hover{
-    background-color: rgb(0, 48, 194);
+    background-color: gray;
 }
